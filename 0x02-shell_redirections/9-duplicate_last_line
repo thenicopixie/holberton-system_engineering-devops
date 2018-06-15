@@ -1,2 +1,2 @@
 #!/bin/bash
-cut tail ./iacta
+echo $(tail -1 iacta) >> iacta
