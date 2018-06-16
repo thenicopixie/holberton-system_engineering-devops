@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 -lt | grep -v | head 10
+find -type f | ls -ltr | head -10
