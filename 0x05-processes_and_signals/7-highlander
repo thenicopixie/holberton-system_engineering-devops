@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script displays text indefinitely with sleep in between interations
+# Displays another text when recieving a SIGTERM signal
+while :
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap "echo I am invincible!!!" SIGTERM
+done
