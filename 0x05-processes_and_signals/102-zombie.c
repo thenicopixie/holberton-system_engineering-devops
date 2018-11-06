@@ -5,7 +5,7 @@
 /**
  * main - entry poiny
  */
-void main(void)
+int main(void)
 {
 	pid_t child;
 	int i = 0;
@@ -20,4 +20,5 @@ void main(void)
 		i++;
 	}
 	sleep(50);
+	return (0);
 }
