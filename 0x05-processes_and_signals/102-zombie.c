@@ -13,16 +13,14 @@ int infinite_while(void);
  */
 void main(void)
 {
-	pid_t pid;
+	pid_t child;
 	int i = 0;
 
 	while (i < 5)
 	{
-		pid = fork();
-		if (pid > 0)
-			return;
-		else if (pid == 0)
-			printf("Zombie process created, PID: %d\n", getpid());
+		child = fork();
+		if (child)
+			printf("Zombie process created, PID: %d\n", child);
 		else
 			exit;
 		i++;
