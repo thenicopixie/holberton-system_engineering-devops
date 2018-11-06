@@ -22,10 +22,10 @@ void main(void)
 		if (child)
 			printf("Zombie process created, PID: %d\n", child);
 		else
-			exit;
+			exit(0);
 		i++;
 	}
-	infinite_while();
+	infinite_while;
 }
 
 /**
