@@ -3,12 +3,6 @@
 #include <stdlib.h>
 
 /**
- * infinite_while - infinite loop
- * Return: 0
- */
-int infinite_while(void);
-
-/**
  * main - entry poiny
  */
 void main(void)
@@ -25,18 +19,5 @@ void main(void)
 			exit(0);
 		i++;
 	}
-	infinite_while;
-}
-
-/**
- * infinite_while - infinite loop
- * Return: 0
- */
-int infinite_while(void)
-{
-	while (1)
-	{
-		sleep(1);
-	}
-	return (0);
+	sleep(50);
 }
