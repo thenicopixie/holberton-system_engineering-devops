@@ -4,6 +4,7 @@
 
 /**
  * main - entry poiny
+ * Return: 0
  */
 int main(void)
 {
