@@ -20,6 +20,6 @@ int main(void)
 			exit(0);
 		i++;
 	}
-	sleep(50);
+	sleep(200);
 	return (0);
 }
