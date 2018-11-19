@@ -1,4 +1,4 @@
-# Prcesses and signals
+# Processes and signals
 ### What I should learn:
 - What is a PID
 - What is a process
