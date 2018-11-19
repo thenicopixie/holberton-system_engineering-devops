@@ -1,4 +1,4 @@
-# Networking bsics #0
+# Networking basics #0
 #### What I should learn:
 - OSI model
   - What it is
