@@ -19,4 +19,4 @@ File | Description
 7-OMG_WHY_ARE_YOU_SHOUTING.rb | The regular expression must be only matching: capitol letters
 
 #### Author
-Nicole Swanson - [@Nicolette_Swan]
+Nicole Swanson - [@Nicolette_Swan](https://twitter.com/Nicolette_Swan)
