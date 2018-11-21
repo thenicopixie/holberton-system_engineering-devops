@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script configures an Ubuntu server
+cp /etc/hosts ~/hosts.new
+echo "copied"
+sed -i "s/^127.*localhost$/127.0.0.2 localhosts/" ~/hosts.new
+echo "seddd"
+vari="$(grep -Fxq "facebook.com" ~/hosts.new)"
+echo $vari
+if [ $vari ]
+then
+    echo "first"
+    sed -i "s/.*facebook.com$/8.8.8.8 facebook.com/" ~/hosts.new
+else
+    echo "second"
+    sed "1i 8.8.8.8 facebook.com" ~/hosts.new
+fi
+# cp -f ~/hosts.new /etc/hosts
