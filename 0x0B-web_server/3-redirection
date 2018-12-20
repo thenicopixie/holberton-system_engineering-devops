@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script redirects to another page
+redirection="location \/redirect_me \{\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t\}"
+filename="/etc/nginx/sites-enabled/default"
+sudo sed -i '/^\tserver_name localhost;/a\\n\t\'"$redirection"'' $filename
+sudo service nginx restart
