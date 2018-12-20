@@ -5,7 +5,7 @@ apt-get -y install nginx
 echo "Holberton School" > usr/share/nginx/html/index.html
 service nginx start
 redirection="location \/redirect_me \{\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t\}"
-filename="/etc/nginx/sites-enabled/default"
+filename="/etc/nginx/sites-available/default"
 sed -i '/^\tserver_name localhost;/a\\n\t'"$redirection"'' $filename
 service nginx restart
 custom="error_page 404 \/custom_404.html;\n\tlocation \/custom_404.html \{\n\t\troot /usr/share/nginx/html;\n\t\tinternal\n\t\}"
