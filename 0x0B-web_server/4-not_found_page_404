@@ -8,7 +8,7 @@ redirection="location \/redirect_me \{\n\t\treturn 301 https://www.youtube.com/w
 filename="/etc/nginx/sites-enabled/default"
 sed -i '/^\tserver_name localhost;/a\\n\t'"$redirection"'' $filename
 service nginx restart
-custom="error_page 404 \/custom_404.html;\n\tlocation = \/custom_404.html \{\n\t\troot /usr/share/nginx/html;\n\t\tinternal\n\t\}"
+custom="error_page 404 \/custom_404.html;\n\tlocation \/custom_404.html \{\n\t\troot /usr/share/nginx/html;\n\t\tinternal\n\t\}"
 sed -i '/^\tserver_name localhost;/ a\\n\t'"$custom"'' $filename
 echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
 service nginx start
