@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script runs Apache on a container.
+apt-get update -y
+apt-get install apache2
+service apache2 restart
