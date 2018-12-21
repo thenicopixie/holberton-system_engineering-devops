@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 # This script redirects to another page
+sudo apt-get update
+sudo apt-get -y install nginx
+echo "Holberton School" | sudo tee usr/share/nginx/html/index.html
+sudo /etc/init.d/nginx start
 redirection="location \/redirect_me \{\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t\}"
 filename="/etc/nginx/sites-available/default"
 sed -i '/^\tserver_name localhost;/a\\n\t'"$redirection"'' $filename
