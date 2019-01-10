@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script makes a symlink between the nginx default files
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
