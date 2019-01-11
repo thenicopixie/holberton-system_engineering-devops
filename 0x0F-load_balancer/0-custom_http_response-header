@@ -11,5 +11,5 @@ custom="error_page 404 \/custom_404.html;\n\tlocation \/custom_404.html \{\n\t\t
 sed -i '/^\tserver_name localhost;/ a\\n\t'"$custom"'' $filename
 echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
 fname="/etc/nginx/nginx.conf"
-sed '/^\http {/a\\n\tadd_header X-Served-By '"$HOSTNAME;\n" $fname
+sed -i '/^\http {/a\\n\tadd_header X-Served-By '"$HOSTNAME;\n" $fname
 sudo service nginx restart
