@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script configures the web-02 server to be identical to web-01.
+# Implements a load balancer
+apt-get update
+apt-get -y install nginx
+echo "Holberton School" > /usr/share/nginx/html/index.html
+redirection="location \/redirect_me \{\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t\}"
+filename="/etc/nginx/sites-available/default"
+sed -i '/^\tserver_name localhost;/a\\n\t'"$redirection"'' $filename
+custom="error_page 404 \/custom_404.html;\n\tlocation \/custom_404.html \{\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t\}"
+sed -i '/^\tserver_name localhost;/ a\\n\t'"$custom"'' $filename
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
+file =  "/etc/nginx/nginx.conf"
+sed '/^\http {/a\\n\tadd_header X-Served-By '"$HOSTNAME;\n" $file
+sudo service nginx restart
