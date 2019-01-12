@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script installs and configures HAProxy to the load balancer server
+echo deb http://archive.ubuntu.com/ubuntu trusty-backports main universe | tee /etc/apt/sources.list.d/backports.list
 apt-get update
 apt-get install haproxy=1.5.\*
 filename="/etc/haproxy/haproxy.cfg"
-sed -i -e '$a\' -e '\nfrontend haproxynode\n\tbind *:80\n\tmode http\n\tdefault_backend backendnodes\n\nbackend backendnodes\n\tbalance roundrobin\n\toption forwardfor\n\thttp-request set-header X-Forwarded-Port %[dst_port]\n\thttp-request add-header X-Forwarded-Proto https if { ssl_fc }\n\toption httpchk HEAD / HTTP/1.1\\r\\nHost:localhost\n\tserver web-01 35.227.97.247 check\n\tserver web-02 35.196.203.239 check' $filename
-sed '$ a ENABLED=1' /etc/default/haproxy
+sed -i -e '$a\' -e '\nfrontend haproxynode\n\tbind *:80\n\tmode http\n\tdefault_backend backendnodes\n\nbackend backendnodes\n\tbalance roundrobin\n\tserver web-01 35.227.97.247:80 check\n\tserver web-02 35.196.203.239:80 check' $filename
 sudo service haproxy restart
