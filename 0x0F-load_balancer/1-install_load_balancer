@@ -3,16 +3,5 @@
 apt-get update
 apt-get install haproxy=1.5.\*
 filename="/etc/haproxy/haproxy.cfg"
-echo -e "frontend haproxynode
-\tbind *:80
-\tmode http
-\tdefault_backend backendnodes
-backend backendnodes
-\tbalance roundrobin
-\toption forwardfor
-\thttp-request set-header X-Forwarded-Port %[dst_port]
-\thttp-request add-header X-Forwarded-Proto https if { ssl_fc }
-\toption httpchk HEAD / HTTP/1.1\\\r\\\nHost:localhost
-\tserver web-01 35.227.97.247 check
-\tserver web-02 35.196.203.239 check" | tee -a $filename
+sed '$ a frontend haproxynode\n\tbind *:80\n\tmode http\n\tdefault_backend backendnodes\n\tbackend backendnodes\n\tbalance roundrobin\n\toption forwardfor\n\thttp-request set-header X-Forwarded-Port %[dst_port]\n\thttp-request add-header X-Forwarded-Proto https if { ssl_fc }\n\toption httpchk HEAD / HTTP/1.1\\\r\\\nHost:localhost\n\tserver web-01 35.227.97.247 check\n\tserver web-02 35.196.203.239 check' | tee -a $filename
 service haproxy restart
