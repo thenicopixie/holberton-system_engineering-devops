@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 # This script installs and configures HAProxy to the load balancer server
 apt-get update
 apt-get install haproxy=1.5.\*
