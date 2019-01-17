@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script runs Nginx as the nginx user listening to port 8080.
+# port 8080 starts out being listened to by apache2
+# change user without using ;
+pkill apache2
+sudo chmod 644 /etc/nginx/nginx.conf
+sudo sed -i 's/#user www-data/user nginx/' /etc/nginx/nginx.conf
+sudo sed -i 's/\<80\>/&80/' /etc/nginx/sites-available/default
+sudo -u nginx service nginx restart
