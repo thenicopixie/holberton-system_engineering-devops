@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 # Bash script that generates a MySQL dump
-mysqldump -u root -p $1 --opt --all-databases > backup.sql
-tar -zcf $(date '+%d-%m-%Y').tar.gz backup.sql
+if [ $# -eq 0 ]
+then
+    password=""
+else
+    password="$1"
+fi
+mysqldump -u root -p"$password" --all-databases > backup.sql
+tar -zcf "$(date '+%d-%m-%Y')".tar.gz backup.sql
