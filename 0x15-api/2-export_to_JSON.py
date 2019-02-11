@@ -17,7 +17,7 @@ if __name__ == "__main__":
         data[uId].append({
             "task": d.get("title"),
             "completed": d.get("completed"),
-            "username": d.get("username"),
+            "username": username
         })
     with open("{}.json".format(sys.argv[1]), 'w') as fn:
         json.dump(data, fn)
