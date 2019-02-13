@@ -12,10 +12,6 @@ def recurse(subreddit, hot_list=[], after=None):
     """
     Retuns a list of titles of all hot articles
     for a given subreddit.
-    Variables:
-        subreddit: subreddit to query
-        hot_list: empty list to put results in
-        count: counter
     """
     url = "https://api.reddit.com/r/{}/hot".format(subreddit)
     if after:
