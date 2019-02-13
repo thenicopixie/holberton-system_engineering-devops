@@ -20,13 +20,13 @@ def recurse(subreddit, hot_list=[], after=None):
         top = requests.get(url, allow_redirects=False,
                            headers={'User-Agent': 'Someone'}
                            ).json().get("data")
+        children = top.get("children")
+        for child in children:
+            hot_list.append(child.get("data").get("title"))
+        next_page = top.get("after")
+        if next_page:
+            return recurse(subreddit, hot_list, after=next_page)
+        else:
+            return hot_list
     except:
         return None
-    children = top.get("children")
-    for child in children:
-        hot_list.append(child.get("data").get("title"))
-    next_page = top.get("after")
-    if next_page:
-        return recurse(subreddit, hot_list, after=next_page)
-    else:
-        return hot_list
