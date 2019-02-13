@@ -14,7 +14,7 @@ def recurse(subreddit, hot_list=[], after=None):
     for a given subreddit.
     """
     url = "https://api.reddit.com/r/{}/hot".format(subreddit)
-    if after:
+    if after is not None:
         url += "?after={}".format(after)
     try:
         top = requests.get(url, allow_redirects=False,
