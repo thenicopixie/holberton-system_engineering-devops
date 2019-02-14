@@ -11,7 +11,7 @@ def number_of_subscribers(subreddit):
     url = "https://api.reddit.com/r/{}/about".format(subreddit)
     try:
         return requests.get(url, allow_redirects=False,
-                            headers={'User-Agent': 'Someone'}
+                            headers={'User-Agent': 'SomethingSomething'}
                             ).json().get("data").get("subscribers")
     except:
         return 0
