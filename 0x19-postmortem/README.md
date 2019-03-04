@@ -1,26 +1,43 @@
 # Postmortem
 ---
+### 500 Internal Server Error
+
 ### Date
 ---
-2019-2-27
+03-04-2019
 
 ### Author
 ---
-- Nicole
+- Nicole Swanson
 
 ### Status:
 ---
+`200 OK`
 
 ### Summary
 ---
+Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`.
 
 ### Timeline
 ---
 Time | Description
 -----|-------------
+2:00 PM | Access to server went down. Received `500 Internal Server Error` when requesting url site.
+2:03 PM | Curled IP address in another terminal window. Again, got 500 internal error
+2:05 PM | Ran ps -aux to see what ports were listening. Noted `www-data` listening on port
+2:012 PM | Used `strace -p <pid> -o filename` to trace the `www-data` port and saved the result in a file
+2:15 PM | In another terminal widow, curled the ip address again
+2:21 PM | In the `strace` error log noted a typo. Site was trying to be configured with a filename extention `phpp` instead of `php`
+2:27 PM | Searched in the `wp-config.php` file and found the the file `wp-setting.php` listed. Went to that file and found the typo there.
+2:29 PM | Fixed the typo in the `wp-settings.php` file and curled `127.0.0.1` which returned status code `200 OK`
+
 
 ### Root Causes
 ---
+The server was trying to configure using a file that did not exist. Instead of using `class-wp-locale.php`, it was trying to use `class-wp-locale.phpp`. This resulted in the server being unable to connect and returning the `500 Internal Server Error`.
 
 ### Lessons Learned
 ---
+For future risk prevention, local testing should be done on servers before deployment.
+Error logs should be kept to make any future debugging quicker and more efficient.
+Code review should be done to prevent typos and mistakes from going into production.
