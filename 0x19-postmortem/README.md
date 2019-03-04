@@ -22,12 +22,12 @@ Time | Description
 -----|-------------
 2:00 PM | Access to server went down. Received `500 Internal Server Error` when requesting url site.
 2:03 PM | Curled IP address in another terminal window. Again, got 500 internal error
-2:05 PM | Ran ps -aux to see what ports were listening. Noted `www-data` listening on port
-2:012 PM | Used `strace -p <pid> -o filename` to trace the `www-data` port and saved the result in a file
-2:15 PM | In another terminal widow, curled the ip address again
-2:21 PM | In the `strace` error log noted a typo. Site was trying to be configured with a filename extention `phpp` instead of `php`
-2:27 PM | Searched in the `wp-config.php` file and found the the file `wp-setting.php` listed. Went to that file and found the typo there.
-2:29 PM | Fixed the typo in the `wp-settings.php` file and curled `127.0.0.1` which returned status code `200 OK`
+2:07 PM | Ran ps -aux to see what ports were listening. Noted `www-data` listening on port
+2:15 PM | Used `strace -p <pid> -o filename` to trace the `www-data` port and saved the result in a file
+2:19 PM | In another terminal widow, curled the ip address again
+2:24 PM | In the `strace` error log noted a typo. Site was trying to be configured with a filename extention `phpp` instead of `php`
+2:29 PM | Searched in the `wp-config.php` file and found the the file `wp-setting.php` listed. Went to that file and found the typo there.
+2:33 PM | Fixed the typo in the `wp-settings.php` file and curled `127.0.0.1` which returned status code `200 OK`
 
 
 ### Root Causes
