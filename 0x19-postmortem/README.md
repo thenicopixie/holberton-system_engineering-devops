@@ -13,6 +13,7 @@
 
 ### Summary
 Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`.
+![500_error_cat](https://i.chzbgr.com/full/1999218944/h369E3AB7/)
 
 ### Timeline
 ---
@@ -34,6 +35,7 @@ The server was trying to configure using a file that did not exist. Instead of u
 
 ### Lessons Learned
 ---
-For future risk prevention, local testing should be done on servers before deployment.
-Error logs should be kept to make any future debugging quicker and more efficient.
-Code review should be done to prevent typos and mistakes from going into production.
+- For future risk prevention, local testing should be done on servers before deployment.
+- Error logs should be kept to make any future debugging quicker and more efficient.
+- Code review should be done to prevent typos and mistakes from going into production.
+![lazy_code_review](https://image.slidesharecdn.com/webexpo-160923210924/95/how-to-successfully-grow-a-code-review-culture-61-638.jpg?cb=1476167539)
