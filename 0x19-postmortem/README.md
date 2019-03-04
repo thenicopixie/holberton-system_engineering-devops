@@ -1,5 +1,6 @@
 # Postmortem
 ### 500 Internal Server Error
+![this_is_fine](https://www.dailydot.com/wp-content/uploads/6f2/bb/20130109-1022x512.png)
 
 ### Date
 03-04-2019
