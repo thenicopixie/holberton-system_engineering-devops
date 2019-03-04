@@ -8,7 +8,7 @@
 - Nicole Swanson
 
 ### Status:
-Bug fixed. Server returns a status code of `200 OK`
+[Bug fixed](https://github.com/thenicopixie/holberton-system_engineering-devops/tree/master/0x17-web_stack_debugging_3). Server returns a status code of `200 OK`
 
 ### Summary
 Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`.
