@@ -28,6 +28,7 @@ Time | Description
 2:24 PM | In the `strace` error log noted a typo. Site was trying to be configured with a filename extention `phpp` instead of `php`
 2:29 PM | Searched in the `wp-config.php` file and found the the file `wp-setting.php` listed. Went to that file and found the typo there.
 2:33 PM | Fixed the typo in the `wp-settings.php` file and curled `127.0.0.1` which returned status code `200 OK`
+2:34 PM | Wedsite back up, running normally.
 
 
 ### Root Causes
