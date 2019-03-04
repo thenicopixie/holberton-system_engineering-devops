@@ -13,6 +13,7 @@
 
 ### Summary
 Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`.
+
 ![500_error_cat](https://i.chzbgr.com/full/1999218944/h369E3AB7/)
 
 ### Timeline
