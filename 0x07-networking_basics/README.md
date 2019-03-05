@@ -1,4 +1,5 @@
 # Networking basics #0
+![computer_networking](https://www.pcwdld.com/wp-content/uploads/conceptdraw-sample.png)
 #### What I should learn:
 - OSI model
   - What it is
