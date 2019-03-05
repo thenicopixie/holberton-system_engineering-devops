@@ -1,5 +1,5 @@
 # 0x0C. Web stack debugging #0
-![debug_illustration](https://cdn.lynda.com/course/645067/645067-636614622227054107-16x9.jpg)
+![debug_illustration](http://bryanavery.co.uk/wp-content/uploads/2018/11/hero-snapshot-debugger.png)
 
 Debug Apach server to display line of text
 
