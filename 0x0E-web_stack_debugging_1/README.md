@@ -1,5 +1,5 @@
 # 0x0E. Web stack debugging #1
-![debugging](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm353_8OVVdL-S1j4rZ4u-mGqNNHsHe877ktkSs2g6nksVUAI)
+![debugging](https://static.interestingengineering.com/images/SEPTEMBER/sizes/computer_bug_-_debug_resize_md.jpg)
 #### Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
 - Files interpreted on Ubuntu 14.04 LTS
