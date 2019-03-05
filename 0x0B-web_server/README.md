@@ -1,4 +1,5 @@
 # 0x0B. Web server
+![web_server_illustration](https://cdn.dribbble.com/users/949592/screenshots/4211815/worry-free-2.jpg)
 #### What I should learn:
 - What DNS stands for
 - What is DNS main role
