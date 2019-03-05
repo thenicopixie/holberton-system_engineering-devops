@@ -1,5 +1,5 @@
 # 0x15. API
-![api_illustration](https://blog.feedly.com/wp-content/uploads/2017/08/API-illustration-1200x941.png)
+![api_illustration](https://myventurepad.com/wp-content/uploads/2018/08/rest-api.jpg)
 #### What I should learn:
 - What Bash scripting should not be used for
 - What is an API
