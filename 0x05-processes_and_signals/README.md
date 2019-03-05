@@ -1,4 +1,5 @@
 # Processes and signals
+![processes](https://towardsmaturity.org/wp-content/uploads/2017/06/Business-processes-TM-article-June-2017-1.png)
 ### What I should learn:
 - What is a PID
 - What is a process
