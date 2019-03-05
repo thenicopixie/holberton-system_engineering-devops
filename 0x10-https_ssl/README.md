@@ -1,4 +1,5 @@
 # 0x10. HTTPS SSL
+![https](https://www.seoblog.com/wp-content/uploads/2017/07/SSL-Benefits-Illustration.jpg)
 #### What I should learn:
 - What is HTTPS SSL 2 main roles
 - What is the purpose encrypting traffic
