@@ -1,4 +1,5 @@
 # Loops, conditions and parsing
+![loops](https://media.istockphoto.com/vectors/amusement-park-roller-coaster-color-silhouettes-set-vector-vector-id845885830?k=6&m=845885830&s=612x612&w=0&h=mP2XgRxYiZlMrvLh-q_63DYfesKQL219AiNpkDkac8E=)
 ### What I should learn:
 - How to create SSH keys.
 - What is the advantage of using `#!/usr/bin/env bash` over `#!/bin/bash`.
