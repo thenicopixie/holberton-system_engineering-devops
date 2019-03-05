@@ -1,4 +1,5 @@
 # 0x12. Web stack debugging #2
+![debugging](https://cdn-images-1.medium.com/max/1200/1*re1GLQjhU86ji8l-5p5yCA.png)
 ### Requirements
 - All files interpreted on Ubuntu 14.04 LTS
 - Bash scripts are executable
