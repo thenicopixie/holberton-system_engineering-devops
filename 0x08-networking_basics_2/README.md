@@ -1,5 +1,5 @@
 # Networking basics #1
-![computer_networking](https://st.depositphotos.com/2001403/4887/v/950/depositphotos_48873189-stock-illustration-illustration-of-computer-network-concept.jpg)
+![computer_networking](https://udemy-images.udemy.com/course/480x270/580876_a07a_2.jpg)
 #### What I should learn:
 - What is localhost/127.0.0.1
 - What is 0.0.0.0
