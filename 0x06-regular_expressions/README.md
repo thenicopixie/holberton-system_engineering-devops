@@ -1,6 +1,6 @@
 # Regular Expressions
 
-![regular_expression_comic](https://www.explainxkcd.com/wiki/images/1/14/backslashes.png)
+![regular_expression_comic](https://summerofhpc.prace-ri.eu/wp-content/uploads/2013/08/p3p41.png)
 
 ### Requirements:
 - Allowed editors `vi`, `vim`, `emacs`
