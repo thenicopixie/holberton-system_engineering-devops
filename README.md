@@ -1,35 +1,33 @@
 # README
+![wizards_toolbox](https://www.mbiconcepts.com/uploads/3/4/1/4/34149648/3550753_orig.jpg)
 
-## What I Learned
-
-## Shell, I/O Redirection
-
-#### What do the commands head, tail, find, wc, sort, uniq, grep, tr do
-
-#### How to redirect standard output to a file
-
-#### How to get standard input from a file instead of the keyboard
-
-#### How to send the output from one program to the input of another program
-
-#### How to combine commands and filters with redirections
-
-## Special Characters
-
-#### What are special characters
-
-#### Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
-
-## Other man pages
-
-#### How to display a line of text
-
-#### How to concatenate files and print on the standard output
-
-#### How to reverse a string
-
-#### How to remove sections from each line of files
-
-#### What is the /etc/passwd file and what is its format
-
-#### What is the /etc/shadow file and what is its format
+#### Author
+Nicole Swanson - [@Nicolette_Swan](https://twitter.com/Nicolette_Swan)
+---
+Folders |
+--------|
+0x00-shell_basics	|
+0x01-shell_permissions |
+0x02-shell_redirections |
+0x03-shell_variables_expansions	|
+0x04-loops_conditions_and_parsing |
+0x05-processes_and_signals |
+0x06-regular_expressions |
+0x07-networking_basics |
+0x08-networking_basics_2 |
+0x09-web_infrastructure_design |
+0x0A-ssh |
+0x0B-web_server	|
+0x0C-web_stack_debugging_0 |
+0x0D-configuration_management |
+0x0E-web_stack_debugging_1 |
+0x0F-load_balancer |
+0x10-https_ssl |
+0x12-web_stack_debugging_2 |
+0x13-firewall	|
+0x14-mysql |
+0x15-api |
+0x16-api_advanced |
+0x17-web_stack_debugging_3 |
+0x18-webstack_monitoring |
+0x19-postmortem |
