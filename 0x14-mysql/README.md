@@ -1,4 +1,6 @@
 # 0x14. Mysql
+![mysql](https://images.all-free-download.com/images/graphiclarge/mysql_68829.jpg)
+
 #### What I should learn:
 - What is the main role of a database
 - What is a database replica
