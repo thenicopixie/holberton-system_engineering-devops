@@ -1,4 +1,5 @@
 # Configuration management
+![management](http://www.ability2code.co.uk/img/configurationmanagement.png)
 #### Requirements
 - All files interpreted on Ubuntu 14.04 LTS
 - Puppet manifests pass `puppet-lint` without errors
