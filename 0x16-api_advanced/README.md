@@ -1,4 +1,5 @@
 # 0x16. API advanced
+![api_illustration](https://cdn-images-1.medium.com/max/1600/1*FDdB3arMwsXKX0bCVoR3og.png)
 #### What I should learn:
 - How to read API documentation to find the endpoints you’re looking for
 - How to use an API with pagination
