@@ -1,4 +1,5 @@
 # 0x17. Web stack debugging #3
+![debugging](https://www.fivesquid.com/pics/t2/1482092358-63262-1-1_236px.jpg)
 #### Requirements:
 - All files are interpreted on Ubuntu 14.04 LTS
 - All files end with a new line
