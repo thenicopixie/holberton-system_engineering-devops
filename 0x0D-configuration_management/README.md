@@ -1,5 +1,5 @@
 # Configuration management
-![management](http://www.ability2code.co.uk/img/configurationmanagement.png)
+![management](https://opensource.com/sites/default/files/styles/image-full-size/public/lead-images/innovation_lightbulb_gears_devops_ansible.png?itok=TSbmp3_M)
 #### Requirements
 - All files interpreted on Ubuntu 14.04 LTS
 - Puppet manifests pass `puppet-lint` without errors
