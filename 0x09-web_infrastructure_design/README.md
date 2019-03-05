@@ -1,4 +1,5 @@
 # 0x09. Web infrastructure design
+![web_infrastructure_illustration](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR394QyfFtRkKDjf8b9-7iyeIQaiY7lf_OC5HUM3Y-v4W6Nm0MI)
 #### What I should learn:
 - System redundancy
 - LAMP
