@@ -1,5 +1,7 @@
 # Regular Expressions
+
 ![regular_expression_comic](https://www.explainxkcd.com/wiki/images/1/14/backslashes.png)
+
 ### Requirements:
 - Allowed editors `vi`, `vim`, `emacs`
 - All files will be interpreted on Ubuntu 14.04 LTS
