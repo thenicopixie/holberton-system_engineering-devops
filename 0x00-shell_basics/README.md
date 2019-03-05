@@ -1,4 +1,5 @@
 # Shell Basics
+![shell](https://media.istockphoto.com/vectors/queen-conch-shell-illustration-drawing-engraving-ink-realistic-vector-id643042670?k=6&m=643042670&s=612x612&w=0&h=eKxuRvsENEIXwsimVyRrlMKPmrxzLfIZwP6TS3ve_8M=)
 
 ### What I should learn:
 
