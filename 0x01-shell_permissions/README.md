@@ -1,4 +1,5 @@
 # README
+![shell_permissions](http://linuxcommand.org/images/file_permissions.png)
 ## Description
 - Shell permissions
 ### What I should learn
