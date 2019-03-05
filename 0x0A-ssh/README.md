@@ -1,4 +1,5 @@
 # 0x0A. SSH
+![ssh](https://static.makeuseof.com/wp-content/uploads/2013/07/SSH-on-Windows-Featured-670x335.jpg)
 #### What I should learn:
 - What is a server
 - Where servers usually live
