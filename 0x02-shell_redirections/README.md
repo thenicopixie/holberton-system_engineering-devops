@@ -1,6 +1,7 @@
 # README
 
 ## 0x02 Shell, I/O Redirection and filters
+![redirections](https://i.ytimg.com/vi/dXxBJ94D_0g/maxresdefault.jpg)
 
 #### 0. 
 Script that prints "Hello, World" to standard output.
