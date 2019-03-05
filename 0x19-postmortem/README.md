@@ -19,7 +19,7 @@ Monday, March 4th at 2pm access to the server went down and was not able to be a
 #### Actions Taken
 Engineer noticed server was down and returning a `500 error`. The incident was escalated to Nicole who then found the typo in one of the files.
 
-![keyboard_gif](https://media1.tenor.com/images/6bf658d3c1df80990a0817b417b78155/tenor.gif?itemid=10503435)
+![keyboard_gif](https://66.media.tumblr.com/b768bc4e59a3d9b7e7588b0492d739ab/tumblr_inline_o8e1osXLin1r2xhmf_500.gif)
 
 
 ### Timeline
