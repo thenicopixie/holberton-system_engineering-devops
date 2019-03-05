@@ -12,7 +12,7 @@
 [Bug fixed](https://github.com/thenicopixie/holberton-system_engineering-devops/tree/master/0x17-web_stack_debugging_3). Server returns a status code of `200 OK`
 
 ### Summary
-Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`.
+Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`. `100%` of users were affected by this outage for `35` minutes.
 
 ![500_error_cat](https://i.chzbgr.com/full/1999218944/h369E3AB7/)
 
