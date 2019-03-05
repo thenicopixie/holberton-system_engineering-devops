@@ -14,10 +14,13 @@
 ### Summary
 Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`. `100%` of users were affected by this outage for `35` minutes.
 
+![500_error_cat](https://i.chzbgr.com/full/1999218944/h369E3AB7/)
+
 #### Actions Taken
 Engineer noticed server was down and returning a `500 error`. The incident was escalated to Nicole who then found the typo in one of the files.
 
-![500_error_cat](https://i.chzbgr.com/full/1999218944/h369E3AB7/)
+![keyboard_gif](https://media1.tenor.com/images/6bf658d3c1df80990a0817b417b78155/tenor.gif?itemid=10503435)
+
 
 ### Timeline
 ---
