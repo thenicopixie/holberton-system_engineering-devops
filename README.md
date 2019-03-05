@@ -2,7 +2,9 @@
 ![wizards_toolbox](https://www.mbiconcepts.com/uploads/3/4/1/4/34149648/3550753_orig.jpg)
 
 #### Author
+
 Nicole Swanson - [@Nicolette_Swan](https://twitter.com/Nicolette_Swan)
+
 ---
 Folders |
 --------|
