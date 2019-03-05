@@ -36,6 +36,7 @@ Time | Description
 2:33 PM | Fixed the typo in the `wp-settings.php` file and curled `127.0.0.1` which returned status code `200 OK`
 2:34 PM | Website back up, running normally.
 
+![computer_fire](https://media.giphy.com/media/AhjXalGPAfJg4/giphy.gif)
 
 ### Root Causes
 ---
