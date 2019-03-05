@@ -1,4 +1,5 @@
 # 0x15. API
+![api_illustration](https://blog.feedly.com/wp-content/uploads/2017/08/API-illustration-1200x941.png)
 #### What I should learn:
 - What Bash scripting should not be used for
 - What is an API
