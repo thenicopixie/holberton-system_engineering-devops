@@ -1,4 +1,5 @@
 # 0x0E. Web stack debugging #1
+![debugging](https://cdn.lynda.com/course/693121/693121-636669056647643928-16x9.jpg)
 #### Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
 - Files interpreted on Ubuntu 14.04 LTS
