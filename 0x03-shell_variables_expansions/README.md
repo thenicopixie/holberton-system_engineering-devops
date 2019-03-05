@@ -1,4 +1,8 @@
-# What I should learn from this project
+# Shell Variables
+![shell_variables](https://images.slideplayer.com/28/9353848/slides/slide_10.jpg)
+![more_shell_variables](http://linuxmasterswiki.com/wp-content/uploads/2017/04/unixlinux-basic-commands-and-shell-script-49-728.jpg)
+
+## What I should learn from this project
 
 ##### Shell initialization files
 
