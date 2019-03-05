@@ -1,4 +1,5 @@
 # 0x18. Webstack monitoring
+![sumo_logic_monitoring_illustration](https://www.sumologic.com/wp-content/uploads/LP_how_it_works_sumo_logic-1024x552.png)
 #### What I should learn:
 - Why is monitoring needed
 - What are the 2 main area of monitoring
