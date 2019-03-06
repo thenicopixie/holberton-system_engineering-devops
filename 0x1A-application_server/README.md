@@ -1,7 +1,7 @@
 # README
 ## Application Server
 
-![server](https://i.redd.it/xrbttena25301.gif)
+![server_structure](https://datadog-prod.imgix.net/img/blog/nginx-502-bad-gateway-errors-gunicorn/gunicorn-health-focus-3.png?fit=max)
 
 ## Requirements
 
@@ -19,7 +19,7 @@
 - First line of Bash scripts is `#!/usr/bin/env bash`
 - The second line of Bash scripts is a comment
 
-![server_structure](https://datadog-prod.imgix.net/img/blog/nginx-502-bad-gateway-errors-gunicorn/gunicorn-health-focus-3.png?fit=max)
+![server](https://i.redd.it/xrbttena25301.gif)
 
 Update local packages and install packages:
 
