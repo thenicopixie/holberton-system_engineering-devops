@@ -12,9 +12,15 @@
 [Bug fixed](https://github.com/thenicopixie/holberton-system_engineering-devops/tree/master/0x17-web_stack_debugging_3). Server returns a status code of `200 OK`
 
 ### Summary
-Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`.
+Monday, March 4th at 2pm access to the server went down and was not able to be access via website or curling the IP address. The server was returning a `500 Internal Server Error`. `100%` of users were affected by this outage for `35` minutes.
 
 ![500_error_cat](https://i.chzbgr.com/full/1999218944/h369E3AB7/)
+
+#### Actions Taken
+Engineer noticed server was down and returning a `500 error`. The incident was escalated to Nicole who then found the typo in one of the files.
+
+![keyboard_gif](https://66.media.tumblr.com/b768bc4e59a3d9b7e7588b0492d739ab/tumblr_inline_o8e1osXLin1r2xhmf_500.gif)
+
 
 ### Timeline
 ---
@@ -30,6 +36,7 @@ Time | Description
 2:33 PM | Fixed the typo in the `wp-settings.php` file and curled `127.0.0.1` which returned status code `200 OK`
 2:34 PM | Website back up, running normally.
 
+![computer_fire](https://media.giphy.com/media/AhjXalGPAfJg4/giphy.gif)
 
 ### Root Causes
 ---
